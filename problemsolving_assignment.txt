@@ -1,0 +1,42 @@
+######## CODE ############
+l=[x for x in input().split()]
+n=int(input())
+m=len(l)
+d={}
+for i in range(n):
+    s=input()
+    for j in range(m):
+        city=input()
+        if(d.get(city)==None):
+            d[city]=[[] for i in range(n)]
+            d[city][j].append(s)
+        else:
+            d[city][j].append(s)
+for i in sorted(d):
+    print(d[i])
+
+
+########### INPUT  #################
+a b c
+3
+STUDENT_1
+b
+c
+a
+STUDENT_2
+a
+b
+c
+STUDENT_3
+c
+b
+a
+#######  OUTPUT  ########
+[['STUDENT_2'], [], ['STUDENT_1', 'STUDENT_3']]
+
+[['STUDENT_1'], ['STUDENT_2', 'STUDENT_3'], []]
+
+[['STUDENT_3'], ['STUDENT_1'], ['STUDENT_2']]        
+        
+    
+
