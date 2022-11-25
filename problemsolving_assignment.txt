@@ -16,27 +16,4 @@ for i in sorted(d):
     print(d[i])
 
 
-########### INPUT  #################
-a b c
-3
-STUDENT_1
-b
-c
-a
-STUDENT_2
-a
-b
-c
-STUDENT_3
-c
-b
-a
-#######  OUTPUT  ########
-[['STUDENT_2'], [], ['STUDENT_1', 'STUDENT_3']]
-
-[['STUDENT_1'], ['STUDENT_2', 'STUDENT_3'], []]
-
-[['STUDENT_3'], ['STUDENT_1'], ['STUDENT_2']]        
-        
-    
 
