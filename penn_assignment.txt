@@ -1,0 +1,20 @@
+key=input()
+thesarus=[[] for x in input().split()]
+corpus=[[] for x in input().split()]
+count=0
+n=len(thes)
+ind=-1
+for i in range(0,n,2):
+	if(thesarus[i]==key or key in thesarus[i+1]):
+		ind=i
+		break
+if(ind==-1):
+	print("0")
+else:
+	l=thesarus[ind]+thesarus[ind+1]
+	for i in corpus:
+		for j in i:
+			if(j in l):
+				count+=1
+	print(count)
+	
