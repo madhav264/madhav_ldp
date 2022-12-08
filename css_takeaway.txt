@@ -1,0 +1,55 @@
+---------------Intro---------
+class:A ele can belong to more than one class
+Id:A element can have only one id 
+eg:<div id="first" class="c1 c2 c3">
+    <h1 id="id1" > more than one id is not allowed 
+---------TYPES----------------
+1.INLINE(using style tag)
+2.INERNAL(using selectors)
+3.EXTERNAL(using link tag)
+-------------------SELECTORS---------
+1.simple(--->  .class,------>  #id)
+2.universal(*)
+3.grouping selector(h1,h2,h3,p)
+4.combinators
+    1.descendant selector (space)
+    2.child selector (>)
+    3.adjacent sibling selector (+)
+    4.general sibling selector (~)
+5.BACKGROUND
+    background-color
+    background-image
+    background-repeat
+    background-position
+    background-attachment
+6.MARGIN COLLAPSE
+    it happpens when 2 elemnts share the margin and the resultant margin will be the higher of the 2 margins
+7.INLINE(cant addd height padding margins for both inline and block)
+  block
+  block INLINE(can add height ,padding ,margins)
+8.POSITIONING
+    static
+    relative
+    fixed
+    absoulte
+9.FLEX BOX
+    float:left right
+    clear:left right 
+    display:FLEX
+    flex direction:row,row-reverse,column,column-reverse.
+    -->This flex is applied on the container 
+    justify content(x)
+    align items(y)
+10.Grid
+display:Grid
+grid-row-gap:
+gird-column-gap:
+grid-template-rows:row height
+gird-template-columns:column width
+grid-row:1/5  1/span 4
+grid-column:3/6 or 3/span 3
+
+
+
+
+
