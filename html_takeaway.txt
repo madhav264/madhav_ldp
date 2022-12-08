@@ -1,0 +1,24 @@
+commment: <!-- this is a  comment -->
+anchor: <a href="link"> </a>
+body:
+    1.header(navigation)
+    2.main
+        2.1 section
+        2.2 article
+        2.3 aside
+    3.footer
+    RES:following the perfect structure will make the readability of the code easier and it makes the work of search engine easier
+div: container which takes full width 
+span: container which takes as much as required width
+colspan:combines the columns under single attribute
+frameset: used to divide the sheet into smaller frames 
+forms:radio button,text area,checkbox,submit,select
+lists:ol,ul
+<img src="" alt="">
+<sub> <super>: used for subscripts and superscripts
+<iframe>: its used to embed another webpage in a webpage 
+NOte:Framesets doesnt work in html 5,its available in html 4.
+
+
+
+
