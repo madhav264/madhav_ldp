@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <a href="home.html"></a> -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            background-color: darkseagreen;
+        }
+        
+        box1{
+            width: 300px;
+            height: 300px;
+            border-style: solid;
+            border-color: black;
+            /* margin: 10px 10px 10px 10px; */
+        }
+        box2{
+            width: 800px;
+            height: 300px;
+            border-style: solid;
+            border-color: black;
+            text-align: center;
+            /* margin: 10px 10px 10px 10px; */
+        }
+        container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        img{
+            height:300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <div id="nav-placeholder">
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("home.html");
+    });
+    
+    </script>
+    <p style="font-size:40px;display:flex;flex-direction: column;text-align: center;">Hello, A Simple   page   about   Myself </p>
+    <container>
+    <box1><img src="111.jpg" alt="" />
+    <!-- <table  border="3" class="table1">
+        <tr>
+            <td>Name</td>
+            <td>Madhava reddy</td>
+            
+        </tr>
+        <tr>
+            <td>College</td>
+            <td>Sreenidhi</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>Education</td>
+            <td>B.tech</td>
+        </tr>
+        <tr>
+            <td>Ocupation</td>
+            <td>Intern</td>
+        </tr>
+    </table>-->
+    </box1> 
+    <box2><p style="text-decoration:underline;font-size:50px;font-style: italic;background-color: rgb(20, 124, 172);">Me Talking About My Self</p>
+            <p style="font-size:25px"> Graduate From Sreenidhi Institute of Technology,Hyderabad</p>
+               <p style="font-size:25px"> and Completed My Primary and Secondary Education in Ap.</p>
+               <p style="font-size:25px">At Present Intren in Zemoso Technologies.</p>
+       </box2>
+    </container>
+    
+</body>
+</html>
