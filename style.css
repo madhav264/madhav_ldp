@@ -1,0 +1,39 @@
+
+li{
+    /* color: rgba(241, 21, 47, 0.878); */
+    /* background-color: aqua; */
+    font-style: italic;
+    font-size: 30px;
+    /* list-style: none; */
+    display: inline;
+    /* margin: 0px;
+    padding: 0px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    height:50px ;
+    /* background: rgb(109, 136, 147); */
+
+    
+}
+/* ul{ */
+    /* border-style: solid; */
+    /* border-color: rgb(137, 101, 63); */
+    /* padding: 20px; */
+    /* background-color: brown; */
+/* } */
+a:hover{
+    color: rgb(236, 21, 236);
+
+
+
+}
+.table1{
+    font-size: 40px;
+    font-style: normal;
+    border-style: solid;
+    border-width: 3px;
+    border-color: coral;
+    color: darkgreen;
+    padding: 3px;
+    margin:30px 500px 20px 10px;
+}
