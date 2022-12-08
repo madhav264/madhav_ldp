@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="home.html"> -->
+    <!-- <a href="home.html"></a> -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            background-color: rgb(172, 213, 23);
+        } 
+        img{
+            width: 500px;
+            height: 500px;  
+             padding: 2px;      }
+        
+        }
+        .gallery1{
+            display:flex;
+            flex-direction: row;
+            /* justify-content: center; */
+            flex-wrap: wrap;
+            /* width: 1600px; */
+            /* background-color: rgb(55, 156, 167); */
+            /* border-style:solid; */
+
+            
+        }
+        .gallery2{
+            display:flex;
+            flex-direction: row;
+            /* justify-content: center; */
+        flex-wrap: wrap;} */
+        /* body{
+            width: 1520px;
+            height: 920px;
+            border-style: double;
+            border-radius: 5px;
+            align-items: center;
+        } */
+
+    </style>
+
+ 
+</head>
+<body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <div id="nav-placeholder">
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("home.html");
+    });
+    </script>
+    <contaier class="gallery1">
+        <img src="111.jpg" alt="Image">
+        <img src="222.jpg" alt="Image">
+        <img src="333.jpg" alt="Image">
+        <img src="444.jpg" alt="Image">
+        <img src="555.jpg" alt="Image">
+        <img src="77777.jpg" alt="Image" class="sec">
+        <img src="666.jpg" alt="Image" class="sec">
+        <img src="111.jpg" alt="Image">
+        <img src="222.jpg" alt="Image">
+
+        
+    </contaier>
+    <!-- <contaier class="gallery1">
+        <img src="77777.jpg" alt="Image" class="sec">
+        <img src="666.jpg" alt="Image" class="sec">
+        <!-- <img src="333.jpg" alt="Image">
+        <img src="444.jpg" alt="Image">
+        <img src="555.jpg" alt="Image"> -->
+    </contaier>
+     -->
+</body>
+</html>
