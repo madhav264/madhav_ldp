@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <a href="home.html"></a> -->
+    <style>
+       *{
+        background-color: bisque;
+       } 
+        div{
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 20px;
+            /* text-decoration: underline; */
+
+        }
+
+       container{
+        /* font-size: 40px; */
+        /* font-style: normal; */
+        display:flex;
+        flex-wrap: wrap;
+       }
+       box1{
+        /* background-color: aquamarine; */
+        border-style: solid;
+        width: 600px;
+        height: 600px;
+        padding:10px 20px 30px 10px;
+        
+       }
+       box2{
+        /* background-color: aqua; */
+        border-style: solid;
+        height: 640px;
+        width: 600px;
+        text-align: center;
+       }
+       
+        
+    </style>
+6
+</head>
+<body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <div id="nav-placeholder">
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("home.html");
+    });
+    </script>
+    <container>
+    <box1>
+        <pre>
+        <div style="font-style:italic;color: crimson;">Hi,Lets Have a qucik chat </div>
+        <div style="font-style:italic"> ........Fast reply</div>
+        <div style="text-decoration:underline">Your Name:  </div>
+
+        <div style="text-decoration:underline">Your Email:  </div>
+
+        <div style="text-decoration:underline">Your Message:  </div>
+
+        <form action="abc" class="sub">
+            <input type="submit" id="search" value="SUBMIT"  style="height:100px; width:250px;font-size: 40px; border-color: rgb(61, 13, 220);" />
+        </form>
+        </pre>
+
+    </box1>
+    <box2 >
+        <pre>
+        <div> ------HELLO------</div>
+
+        
+        <div>Meet us Through</div>
+        <img src="0000.jpg" alt="" style="width:400px;height:400px">
+        </pre>
+        
+    </box2>
+    </container>
+    
+    
+</body>
+</html>
