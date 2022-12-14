@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div style="margin:20px;text-align: center;" >
+        <input  type="submit" id="id1" onclick="incre()" value="Local Inncrement">
+        
+         <input type="submit" id="id2" value=" Local reset" onclick="collapse()">
+    </div>
+    <div style="margin:20px;text-align: center;">
+             <input type="submit" id="id3" onclick="incre2()" value="session increment">
+             <input type="submit" id="id4" onclick="collapse2()" value="session reset">
+    </div>
+    <script>
+
+            // let v1=document.getElementById("btn1")
+            
+             function incre(){
+                var n= localStorage.getItem("count")
+                if(n===null){
+                    n=0
+                    n++
+                }
+                else{
+                    n++
+                
+                }
+                console.log(n)
+                localStorage.setItem('count',n)
+            let v2=document.getElementById('id1')
+            console.log(v2)
+            v2.value=n 
+         }
+         function collapse(){
+            let v3=document.getElementById("id3")
+            localStorage.removeItem('count')
+
+         }
+         function incre2(){
+            var n1= sessionStorage.getItem("count1")
+                if(n1===null){
+                    n1=0
+                    n1++
+                }
+                else{
+                    n1++
+                
+                }
+                console.log(n1)
+                sessionStorage.setItem('count1',n1)
+            let v4=document.getElementById('id3')
+            console.log(v4)
+            v4.value=n1 
+
+         }
+         function collapse2(){
+            let v5=document.getElementById("id4")
+            sessionStorage.removeItem('count1')
+
+         }
+            
+            
+    </script>
+</body>
+</html>
